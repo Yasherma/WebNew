@@ -1,0 +1,20 @@
+body{
+    background-image: radial-gradient(circle, rgb(237, 167, 167), rgb(237, 237, 197), rgb(154, 181, 154));
+
+}
+#photo{
+    height: 300px;
+    width: 300px;
+}
+
+#cloth{
+    height:700px;
+    width: 400px;
+}
+.card{
+    height: 300px;
+    width: 300px;
+}
+#nev{
+    margin-left: 1110px;
+}
