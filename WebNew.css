@@ -1,5 +1,6 @@
 body{
     background-image: radial-gradient(circle, rgb(237, 167, 167), rgb(237, 237, 197), rgb(154, 181, 154));
+    height:600px;
 
 }
 #photo{
@@ -8,13 +9,59 @@ body{
 }
 
 #cloth{
-    height:700px;
+    height:600px;
     width: 400px;
 }
 .card{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    color: whitesmoke;
+    width: 400px;
+    background-color:rgb(165, 199, 85);
+    /* margin-left: x; */
 }
 #nev{
     margin-left: 1110px;
+}
+#Men{
+    /* margin-left: 160px; */
+}
+#M{
+    height: 80px;
+    font: 50px sans-serif;
+    text-align: center;
+    width: 150px;
+}
+#A{
+    height: 80px;
+    font: 50px sans-serif;
+    text-align: center;
+    width: 150px;
+}
+#YASH{
+    height: 40px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    font-family: cursive;
+    margin-left: 30px;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.card1{
+    height: 200px;
+    color: whitesmoke;
+    width: 400px;
+    background-color:rgb(165, 199, 85);
+    /* margin-left: x; */
+}
+img{
+    height: 200px;
+    width: 400px;
 }

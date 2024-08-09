@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+body{
+    font-family: cursive;
+    background: #000;
+}
+.card{
+    height: 300px;
+    width: 300px;
+}
