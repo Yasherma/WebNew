@@ -45,6 +45,7 @@ body{
     text-align: center;
     font-family: cursive;
     margin-left: 30px;
+    margin-top: -10px;
 }
 h1{
     text-align: center;
@@ -61,7 +62,43 @@ a{
     background-color:rgb(165, 199, 85);
     /* margin-left: x; */
 }
+/* .card:hover{
+    transform: scale(1.1);
+} */
 img{
     height: 200px;
     width: 400px;
+    
 }
+label{
+    margin-left: 30px;
+    
+}
+#tag{
+    text-decoration: none;
+    color: black;
+}
+/* #drop{
+    height: 400px;
+    width: 400px;
+    background: #72a4e0;
+    border: 2px solid rgb(105, 89, 89);
+
+} */
+.dropdown-menu{
+    height: 300px;
+    width: 400px;
+    background: #4a96a7;
+}
+
+
+.btn{
+    background:none;
+}
+.btn1{
+    margin-top:-30px;
+    background:none;
+    color: white;
+    border: none;
+}
+

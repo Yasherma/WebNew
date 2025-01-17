@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+    
+    background-image: url("https://assets.smfgindiacredit.com/sites/default/files/Start-Grocery-Store-Business.jpg?VersionId=o.J4YaoHe4wdU.3NfP.S4CpBGDGVtzbI");
+}
+#card1{
+    height: 350px;
+    margin-left: 40px;
+    background: #86abaf;
+    background-size: cover;
+    display: inline-block;
+    width: 300px;
+    border: 2px solid black;
+} 
+#card2{
+    height: 350px;
+    margin-left: 40px;
+    background: #86abaf;
+    background-size: cover;
+    display: inline-block;
+    width: 300px;
+    border: 2px solid black;
+} 
+#card3{
+    height: 350px;
+    margin-left: 40px;
+    background: #86abaf;
+    background-size: cover;
+    display: inline-block;
+    width: 300px;
+    border: 2px solid black;
+} 
+
+#card4{
+    height: 350px;
+    margin-left: 40px;
+    background: #86abaf;
+    background-size: cover;
+    display: inline-block;
+    width: 300px;
+    border: 2px solid black;
+} 
+#Grocery1{
+    height: 40px;
+    width: 1420px;
+    border: 2px solid black;
+    background: #985a20;
+}
+#YASH{
+    height: 40px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    font-family: cursive;
+    margin-left: 120px;
+    margin-top: -10px;
+}
+#GR{
+    margin-top: -40px;
+}
+img{
+    height: 250px;
+    width: 300px;
+    
+}
+video{
+    margin-left: 400px;
+}
+audio{
+  
+}

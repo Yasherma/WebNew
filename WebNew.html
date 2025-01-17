@@ -11,22 +11,48 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-          <div id="YASH"> yAsh, world!</div>
+          <div id="YASH"><a href="" id="tag">yAsh, world!</a><div class="dropdown">
+            <!-- <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1"  data-bs-toggle="dropdown" aria-expanded="false">
+               </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              
+                <li><a class="dropdown-item" href="#">Cloth's</a></li>
+                <li><a class="dropdown-item" href="#">Grocery </a></li>
+                <li><a class="dropdown-item" href="#">Foot Wear</a></li>
+             
+            
+            </ul> -->
+          </div>
+         </div>
+        
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
+              
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#sec"></a>
+                <div class="dropdown">
+                  <button class="btn1  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                   Features
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#sec">Cloth's</a></li>
+                    <li><a class="dropdown-item" href="#Gro">Grocery</a></li>
+                    <li><a class="dropdown-item" href="#">Foot Wear</a></li>
+                  </ul>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Price</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <label for="customRange1" class="form-label">500-5000</label>
+                  <input type="range" class="form-range" id="customRange1">
+                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,7 +61,7 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="WebNew1.html">Men</a></li>
                   <li><a class="dropdown-item" href="WebNew2.html">Girls</a></li>
-                  <li><a class="dropdown-item" href="#">Grocery</a></li>
+                  <li><a class="dropdown-item" href="Grocery.html">Grocery</a></li>
                   
                 </ul>
               </li>
@@ -43,7 +69,7 @@
           </div>
         </div>
       </nav>
-  
+      
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -66,6 +92,7 @@
         </button>
       </div>
       <br><br>
+      <section id="sec">
       <H1>SHOPY BY NEW CATEGORY</H1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -73,7 +100,9 @@
             <img src="https://www.graphream.com/upload/case_studies/case_study_img0f8f9dedf172cad1c63d865d2d6bb8d31653978820.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <a class="card-title">Jockey </a><br>
-              <a class="card-text" href="WebNew1.html"> new content is a little bit longer.</a>
+              <a class="card-text" href="WebNew1.html"> 
+                Jockey Women Jacket
+                ₹1,689.</a>
             </div>
           </div>
         </div>
@@ -82,7 +111,7 @@
             <img src="https://m.economictimes.com/thumb/msid-99275702,width-1600,height-900,resizemode-4,imgsize-99904/nykaa-expects-over-30-pc-growth-in-fy23-revenue.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <a class="card-title">Nayka</a>
-              <p class="card-text">This is a short card.</p>
+              <a class="card-text" href="WebNew2.html">Nykaa Fashion: Buy Women's Clothings & Accessorie.</a>
             </div>
           </div>
         </div>
@@ -91,7 +120,8 @@
             <img src="https://etimg.etb2bimg.com/thumb/msid-98078420,imgsize-109498,width-1200,height=765,overlay-etbrandequity/marketing/gucci-banks-on-private-salons-for-the-ultra-rich-to-revive-sales.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <a class="card-title">Gucci</a><br>
-              <a class="card-text">This is a content.</a>
+              <a class="card-text">GUCCI Ophidia Small Gg Pattern Shoulder Bag
+                ₹1,95,000.</a>
             </div>
           </div>
         </div><br><br>
@@ -104,8 +134,9 @@
           <div class="card h-100">
             <img src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/SL3MHI7IEFPPDJJJ4EOH6YJMWY.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <a class="card-text">This is a longer card  little bit longer.</a>
+              <h5 class="card-title">Prada</h5>
+              <a class="card-text">Prada large Galleria leather tote bag women
+                ₹4,91,128.51.</a>
             </div>
           </div>
         </div>
@@ -113,8 +144,9 @@
           <div class="card h-100">
             <img src="https://1000logos.net/wp-content/uploads/2021/04/Puma-logo.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <a class="card-text">This is a short card.</a>
+              <h5 class="card-title">Puma</h5>
+              <a class="card-text">Puma Smashic Women Sneakers
+                ₹1,799.</a>
             </div>
           </div>
         </div>
@@ -122,8 +154,8 @@
           <div class="card h-100">
             <img src="https://cdn.britannica.com/94/193794-050-0FB7060D/Adidas-logo.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <a class="card-text">This is a longer card with supporting text below .</a>
+              <h5 class="card-title">Addidas</h5>
+              <a class="card-text" >adidas Women Gym & Training Shoes At Nykaa.</a>
             </div>
           </div>
         </div>
@@ -136,17 +168,17 @@
           <div class="card h-100">
             <img src="https://5.imimg.com/data5/IOS/Default/2023/2/XM/FH/GL/75400157/product-jpeg-500x500.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Shoese</h5>
+              <p class="card-text">Puma shoese Price 2,250₹.</p>
             </div>
           </div>
-        </div>
+        </div><br><br>
         <div class="col">
           <div class="card h-100">
             <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2024-06/240610-beauty-awards-2024-face-makeup-winners-vl-social-74fb90.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
+              <h5 class="card-title">Face Makeup Combo</h5>
+              <a class="card-text" herf="WebNew2.html">Make Up Price 799₹.</a>
             </div>
           </div>
         </div>
@@ -154,8 +186,8 @@
           <div class="card h-100">
             <img src="https://img.tatacliq.com/images/i14/437Wx649H/MP000000020140495_437Wx649H_202311190057481.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">Puma Core Wallet ₹974</h5>
+              <p class="card-text">Mens Wallet ₹1001</p>
             </div>
           </div>
         </div>
@@ -163,12 +195,99 @@
           <div class="card h-100">
             <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS412rCW7YgXqNmiv7ky3EmugOeKXYHPwI-j8cUAl15h0EXYwjX5ri7wDtxT8qtRmdZhKoH2R5eEwMJIICx0LtR2ROFgq-O09jdyXRpZcP2Z663N_GUIlBC&usqp=CAE" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="Ladies Fancy Design Artificial Gold Necklace Set For Party Wearssddddsdsdddsdsdddd"></h5>
+              <p class="card-text">Price: 10000.00 INR / Piece
+                (10000.00 INR + 0% GxaqvST)
+                </p>aqv
+            </div>
+          </div>
+        </div></section>
+        <!-- New Section For Grocery -->
+      <section id="Gro">
+      </div><br><br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.axios.com/NOxQgFPn8cssJcdq1oVyfyZDY1I=/248x0:2048x1800/1920x1920/2023/07/24/1690216222543.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title">Sugar </a><br>
+              <a class="card-text" href="WebNew1.html"> Sugar/Tea Price 500G MRP ₹50.00.</a>
             </div>
           </div>
         </div>
-      </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://www.euroschoolindia.com/wp-content/uploads/2023/10/importance-of-eating-a-variety-of-fruits-for-kids-health-jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title">Fruits</a><br>
+              <a class="card-text" href="Grocery.html">Fruits off Price 500G MRP ₹100.00</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://organicmandya.com/cdn/shop/files/Basmathirice_da3413e4-36cc-4888-884c-f36a3110ead5.jpg?v=1718730887&width=1024" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title">Rice</a><br>
+              <a class="card-text" href="Grocery.html">Rice/beans/ Sale Off 500G MRP ₹120.00</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://www.mevabite.com/cdn/shop/articles/Dry-Fruits-Nuts-Seeds.jpg?v=1725083016" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title">Dry Fruits</a><br>
+              <a class="card-text"href="Grocery.html">Almond/Cashew/walnut/raisins Price 500G MRP ₹399.</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-2foodgroups_vegetables_detailfeature.jpg?sfvrsn=226f1bc7_6" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title">Vegitabls</a><br>
+              <a class="card-text" href="Grocery.html">potato/ tomato /lady finger.</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://spencers.in/media/catalog/product/1/3/1383713.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title">Detergent</a><br>
+              <a class="card-text"href="Grocery.html">Detergent Price ₹120.</a>
+            </div>
+          </div>
+        </div><br><br>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://pixies.in/media/catalog/product/cache/e9780188a08ae15edb442fcb34502371/c/e/cetaphil-gentle-skin-cleanser-250-ml.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title">Face Wash</a><br>
+              <a class="card-text"href="Grocery.html">Face Wash price 500g MRP ₹600 </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://as1.ftcdn.net/jpg/01/06/68/88/1000_F_106688812_rVoRFXazgIMEUJdvffG9p0XvP8Lntf0a.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title">Milk</a><br>
+              <a class="card-text"href="Grocery.html">Milk/Drinkes.</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://img.cdnx.in/18965/1631257849700_SKU-0625_0.jpg?width=600&format=webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title">Soap</a><br>
+              <a class="card-text"href="Grocery.html">Face Soap</a>
+            </div>
+          </div>
+        </div>
+      </section><br><br>
             <nav id="nev" aria-label="Page navigation example">
                 <ul class="pagination">
                   <li class="page-item"><a class="page-link" href="#">Previous</a></li>
@@ -178,7 +297,10 @@
                   <li class="page-item"><a class="page-link" href="WebNew1.html">Next</a></li>
                 </ul>
               </nav>
-    </section>
+   
+    <audio controls loop >
+      <source src="BG.mp3" type="audio/mpeg">
+  </audio>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -189,5 +311,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+    <script src="WebNew.js"></script>
   </body>
 </html>
